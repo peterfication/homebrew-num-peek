@@ -2,6 +2,7 @@ class NumPeek < Formula
   desc ' A CLI tool to peek into *.npy files '
   homepage 'https://github.com/peterfication/num-peek'
   version '0.1.2'
+  # https://github.com/peterfication/num-peek/releases/tag/0.1.2
 
   if Hardware::CPU.arm?
     url 'https://github.com/peterfication/num-peek/releases/download/0.1.2/num-peek-v0.1.2-aarch64-apple-darwin.tar.gz'
