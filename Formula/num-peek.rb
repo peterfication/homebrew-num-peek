@@ -1,15 +1,15 @@
 class NumPeek < Formula
   desc ' A CLI tool to peek into *.npy files '
   homepage 'https://github.com/peterfication/num-peek'
-  version '0.1.3'
-  # https://github.com/peterfication/num-peek/releases/tag/0.1.3
+  version '0.1.4'
+  # https://github.com/peterfication/num-peek/releases/tag/0.1.4
 
   if Hardware::CPU.arm?
-    url 'https://github.com/peterfication/num-peek/releases/download/0.1.3/num-peek-v0.1.3-aarch64-apple-darwin.tar.gz'
-    sha256 'e23a3afb50f1965fe0d47eb938526a30a654b90191c8fa7b73ffb782727c3e74'
+    url 'https://github.com/peterfication/num-peek/releases/download/0.1.4/num-peek-v0.1.4-aarch64-apple-darwin.tar.gz'
+    sha256 '27943b8d2985d394ec8309c79eb33f7b9f3ef1e79cabe704c5c364fc11bcf4fd'
   else
-    url 'https://github.com/peterfication/num-peek/releases/download/0.1.3/num-peek-v0.1.3-x86_64-apple-darwin.tar.gz'
-    sha256 '8c04d9bd3e560d3d267ecb9cf51621effa0a51fbe1d343cefd226863d518e6d3'
+    url 'https://github.com/peterfication/num-peek/releases/download/0.1.4/num-peek-v0.1.4-x86_64-apple-darwin.tar.gz'
+    sha256 '8a02d8911f1aad847162f69895ee3942067a9d2b89ec5d881c695328452590eb'
   end
 
   def install
